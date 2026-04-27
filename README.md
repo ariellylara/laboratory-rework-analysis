@@ -1,4 +1,5 @@
 # Laboratory Rework Impact Analysis
+Tools: Python, Pandas, Matplotlib, SciPy, Statsmodels
 
 ## Overview
 
@@ -25,16 +26,14 @@ Is rework associated with increased operational delay risk?
   - Without rework: 23.8%
   - With rework: 53.1%
 
-- Relative Risk:
-2.23x
+Exams with rework showed 2.23x higher risk of delay.
 
-- Odds Ratio:
-3.6x
+Exams with rework showed 3.6x higher odds of delay.
 
 - Statistical significance:
 p < 0.001
 
-## Visual Outputs
+## Key Visual Findings
 
 ### Average TAT by Rework Status
 
@@ -57,7 +56,7 @@ Outputs/
 
 ## Conclusion
 
-Findings suggest rework is associated with increased likelihood of SLA failure and may represent an operational risk factor.
+Findings suggest rework is associated with increased likelihood of SLA failure and may represent a measurable operational risk factor requiring process investigation.
 
 ## Note
 
